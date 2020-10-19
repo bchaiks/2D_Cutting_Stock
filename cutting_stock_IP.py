@@ -18,7 +18,7 @@ the middle instead of edge -- could just add
 -1*(max_L + max_H) for each sheet, this should 
 be enough to push things towards the origin)
 
-exec(open('/Users/bfchaiken/57stdesign/cutting_stock.py').read())
+
 
 As always, still to make sure nothing weird is going on...
 
@@ -56,7 +56,7 @@ N = [i for i in range(len(PARTS))]
 
 ''' 
 Define big M's for the disjunctive constraints:
-Never more than (8,4) units from the origin, so this 
+Never more than (dim[0],dim[1]) units from the origin, so this 
 should suffice to switch the constraints on and off...
 '''
 M_L = Sheet_dim[0]
