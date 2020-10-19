@@ -215,5 +215,5 @@ def Cutting_stock(parts):
 	'''
 	
 	
-	return Solve(Model(parts), options = "mipgap = 0.2")	
+	return Solve(Model(parts))	
 
