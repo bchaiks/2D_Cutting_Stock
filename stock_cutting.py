@@ -486,7 +486,7 @@ def stock_cutting(request):
 
     Sheet_coord = []
     for i in range(len(SH)):
-        y = (5+ Bin_size[1])*i
+        y = 5+ (Bin_size[1])*i
         x = 0
         entry = {'sheet': i, 'x': x, 'y':y}
         Sheet_coord.append(entry)
