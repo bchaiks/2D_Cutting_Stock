@@ -1,0 +1,3 @@
+"""
+Integrated Solution Tests
+"""
